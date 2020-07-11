@@ -12,4 +12,8 @@ export class MatbodyComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClickMe() {
+    //ToDo: open and close sidenav
+  }
+
 }

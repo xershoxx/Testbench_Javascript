@@ -1,3 +1,9 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<mat-sidenav-container class="example-sidenav-container">
+    <mat-sidenav class="example-sidenav" mode="side" opened>
+        <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+    </mat-sidenav>
 
-<button mat-stroked-button>Basic</button>
+    <mat-sidenav-content>
+        <button mat-stroked-button (click)="onClickMe()">Basic</button>
+    </mat-sidenav-content>
+</mat-sidenav-container>
